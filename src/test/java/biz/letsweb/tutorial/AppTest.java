@@ -26,4 +26,8 @@ public class AppTest {
         assertEquals("Welcome to baeldung ratpack!!!",
                 appUnderTest.getHttpClient().getText("/"));
     }
+
+    @Test
+    public void test1(){
+    }
 }
